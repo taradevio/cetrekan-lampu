@@ -27,3 +27,19 @@
     background-color: black;
     color: #fff;
 }
+
+@media (max-width: 768px) {
+    
+    .container {
+        padding-inline: 1rem;
+        background-color: burlywood;
+        text-align: center;
+    }
+
+    .container div {
+        display: flex;
+        gap: 1rem;
+    }
+
+    
+}
